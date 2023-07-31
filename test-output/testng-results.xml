@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-31T08:03:58 IST" name="Suite" finished-at="2023-07-31T08:03:58 IST" duration-ms="62">
+    <groups>
+      <group name="smoke">
+        <method signature="Invocation.test2()[pri:0, instance:TestNG_Group.Invocation@15bbf42f]" name="test2" class="TestNG_Group.Invocation"/>
+        <method signature="Invocation_1.test1()[pri:0, instance:TestNG_Group.Invocation_1@1e683a3e]" name="test1" class="TestNG_Group.Invocation_1"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-07-31T08:03:58 IST" name="Test" finished-at="2023-07-31T08:03:58 IST" duration-ms="62">
+      <class name="TestNG_Group.Invocation_1">
+        <test-method signature="test1()[pri:0, instance:TestNG_Group.Invocation_1@1e683a3e]" started-at="2023-07-31T08:03:58 IST" name="test1" finished-at="2023-07-31T08:03:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- TestNG_Group.Invocation_1 -->
+      <class name="TestNG_Group.Invocation">
+        <test-method signature="test2()[pri:0, instance:TestNG_Group.Invocation@15bbf42f]" started-at="2023-07-31T08:03:58 IST" name="test2" finished-at="2023-07-31T08:03:58 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- TestNG_Group.Invocation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
